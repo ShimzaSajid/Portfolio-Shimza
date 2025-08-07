@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Shimza Sajid | Portfolio</title>
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- 🔳 Popup Overlay -->
+  <div class="popup-overlay" id="popup">
+    <div class="popup-content">
+      <span class="close-btn">&times;</span>
+      <div class="popup-laptop">
+        <img src="images/CodeFlow.jpeg" alt="My Project" />
+      </div>
+      <h3>Welcome to My Portfolio</h3>
+      <p>Check out my latest work featured in this preview</p>
+    </div>
+  </div>
+
+  <!-- 🧊 Glass Header -->
+<header class="glass-header">
+  <h1>Shimza Sajid</h1>
+  <button class="nav-toggle">☰</button>
+  <nav class="rotating-nav">
+    <ul class="nav-items">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+  <!-- 💫 Hero Section -->
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1 class="intro-text">
+          Hi, I'm <span class="highlight">Shimza Sajid</span>
+        </h1>
+        <h2 class="typewriter-line">
+          I'm a <span class="typewriter"></span>
+        </h2>
+        <p class="hero-subtext">
+          - a passionate developer focused on crafting powerful, interactive web applications and building robust projects in C and object-oriented programming.
+        </p>
+
+        <div class="button-group">
+          <a href="assests\Shimza Sajid.pdf" target="_blank" class="resume-button">
+            <i class="fas fa-eye"></i> View Resume
+          </a>
+         <a href="#projects" class="neon-button secondary">View Featured Project</a>
+        </div>
+      </div>
+
+      <div class="laptop-mockup">
+        <img src="images/CodeFlow.jpeg" alt="My Project" />
+      </div>
+    </section>
+
+    <!-- 👤 About Me Section -->
+    <section class="about-section" id="about">
+      <div class="about-container">
+
+        <!-- LEFT: Profile Image -->
+        <div class="about-image">
+          <img src="images/shimza.jpeg" alt="Profile Photo">
+        </div>
+
+        <!-- RIGHT: About Content -->
+        <div class="about-content">
+         <h2 class="section-title"><span class="highlight">About Me</span></h2>
+
+          <!-- About Intro Text -->
+          <p class="about-description">
+            <i class="fas fa-user"></i> <b>PERSONAL INFO</b><br />
+            I’m a Software Engineering student at COMSATS University, Lahore with a passion for intuitive UI effects, animations, and problem-solving. I love turning ideas into elegant web apps and games.
+          </p>
+
+          <!-- Info Grid -->
+          <div class="info-grid">
+            <div class="info-item"><span class="info-label">First Name:</span><span class="info-value">Shimza</span></div>
+            <div class="info-item"><span class="info-label">Last Name:</span><span class="info-value">Sajid</span></div>
+            <div class="info-item"><span class="info-label">Date of Birth:</span><span class="info-value">31 Jan 2005</span></div>
+            <div class="info-item"><span class="info-label">Nationality:</span><span class="info-value">Pakistani</span></div>
+            <div class="info-item"><span class="info-label">Phone:</span><span class="info-value">0317-4039122</span></div>
+            <div class="info-item"><span class="info-label">Address:</span><span class="info-value">New Lahore City</span></div>
+            <div class="info-item"><span class="info-label">Email:</span><span class="info-value">shimzasajid2005@gmail.com</span></div>
+            <div class="info-item"><span class="info-label">Languages:</span><span class="info-value">English, Urdu</span></div>
+          </div>
+
+          <!-- Sparkling neon divider -->
+          <div class="neon-line"></div>
+
+          <!-- Tab Buttons + Cards -->
+          <div class="tab-system">
+
+            <!-- Left Column - Buttons -->
+            <div class="info-buttons">
+              <button class="info-btn active" data-tab="skills"><i class="fas fa-cogs"></i> Skills</button>
+              <button class="info-btn" data-tab="education"><i class="fas fa-graduation-cap"></i> Education</button>
+              <button class="info-btn" data-tab="experience"><i class="fas fa-briefcase"></i> Experience</button>
+            </div>
+
+            <!-- Right Column - Cards -->
+            <div class="tab-content-column">
+
+              <!-- Skills Tab -->
+      <!-- Skills Tab -->
+      <div class="tab-card active" id="skills">
+
+        <!-- Skill Category Buttons -->
+        <div class="skills-buttons">
+              <button class="skill-tab-btn active" data-category="skills">Skills</button>
+          <button class="skill-tab-btn" data-category="languages">Languages</button>
+          <button class="skill-tab-btn" data-category="tools">Tools</button>
+        </div>
+
+        <!-- Skill Items -->
+        <div class="skills-grid" id="skills-grid">
+          <div class="skill-item" data-category="skills"><h4>HTML</h4></div>
+          <div class="skill-item" data-category="skills"><h4>CSS</h4></div>
+          <div class="skill-item" data-category="skills"><h4>JavaScript</h4></div>
+          <div class="skill-item" data-category="skills"><h4>JavaFX</h4></div>
+          <div class="skill-item" data-category="skills"><h4>DBMS (SQL)</h4></div>
+          <div class="skill-item" data-category="tools"><h4>Git/GitHub</h4></div>
+          <div class="skill-item" data-category="tools"><h4>Microsoft Excel</h4></div>
+          <div class="skill-item" data-category="tools"><h4>Microsoft Word</h4></div>
+          <div class="skill-item" data-category="tools"><h4>Visual Studio</h4></div>
+          <div class="skill-item" data-category="tool"><h4>Dev C++</h4></div>
+          <div class="skill-item" data-category="tools"><h4>IntelliJ IDEA</h4></div>
+          <div class="skill-item" data-category="skills"><h4>Data Structures</h4></div>
+          <div class="skill-item" data-category="skills"><h4>OOP</h4></div>
+          <div class="skill-item" data-category="languages"><h4>Java</h4></div>
+          <div class="skill-item" data-category="languages"><h4>Python</h4></div>
+          <div class="skill-item" data-category="languages"><h4>C Language</h4></div>
+          <div class="skill-item" data-category="tools"><h4>Cisco Packet Tracer</h4></div>
+          <div class="skill-item" data-category="tools"><h4>Visual Studio Code</h4></div>
+          <div class="skill-item" data-category="tools"><h4>SQL Server Management Studio</h4></div>
+          <div class="skill-item" data-category="tools"><h4>Proteus</h4></div>
+          <div class="skill-item" data-category="tools"><h4>Wireshark</h4></div> 
+        </div>
+      </div>
+
+
+              <!-- Education Tab -->
+              <div class="tab-card" id="education">
+                <div class="education-entry">
+                  <div class="row1">
+                    <h3>BS Software Engineering</h3>
+                    <span class="cgpa">CGPA: 3.47</span>
+                    <span class="date-range">2023 - Current</span>
+                  </div>
+                  <div class="row2">
+                    <p>COMSATS University Islamabad</p>
+                    <p class="location">Lahore, Pakistan</p>
+                  </div>
+                </div>
+
+                <div class="education-entry">
+                  <div class="row1">
+                    <h3>Higher Secondary School (Pre-Engineering)</h3>
+                    <span class="cgpa">927(A+)</span>
+                    <span class="date-range">2020 - 2022</span>
+                  </div>
+                  <div class="row2">
+                    <p>Lahore College for Women University</p>
+                    <p class="location">Lahore, Pakistan</p>
+                  </div>
+                </div>
+
+                <div class="education-entry">
+                  <div class="row1">
+                    <h3>Secondary School</h3>
+                    <span class="cgpa">1094(A+)</span>
+                    <span class="date-range">2019 - 2020</span>
+                  </div>
+                  <div class="row2">
+                    <p>Lady Maclagan Girls High School</p>
+                    <p class="location">Lahore, Pakistan</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Experience Tab -->
+              <div class="tab-card" id="experience">
+                <div class="experience-content"></div>
+                <div class="experience-center">
+                  <h3>Mindstorm Studios - Game Dev</h3>
+                  <p class="date-range">Summer Program (7th June – 12th August 2024)</p>
+                </div>
+                <div class="experience-left">
+                  <p>• Worked on Unity Game Development as part of the summer program in a group.</p>
+                  <p>• Developed game logic, UI interactions, and optimized performance using C# and Unity.</p>
+                  <p>• Received a certificate of completion and published a game demo.</p>
+                </div>
+                    <!-- YouTube Video Embed -->
+    <div class="youtube-video-container">
+      <h4>Game Demo:</h4>
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/rS9gFXfu83Q?rel=0&modestbranding=1&controls=1&showinfo=0" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+              </div>
+            </div> <!-- .tab-content-column -->
+          </div> <!-- .tab-system -->
+        </div> <!-- .about-content -->
+      </div> <!-- .about-container -->
+    </section>
+    <!-- Projects Section -->
+<section class="projects-section" id="projects">
+  <div class="section-header">
+    <h2><span class="highlight">My Projects</span></h2>
+  </div>
+
+  <!-- Filter Buttons -->
+  <div class="project-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="c">C</button>
+    <button class="filter-btn" data-filter="oop">OOP</button>
+    <button class="filter-btn" data-filter="web">Web Dev</button>
+    <button class="filter-btn" data-filter="sql">Database</button>
+  </div>
+
+  <!-- Projects Grid -->
+  <div class="projects-grid">
+    <!-- Project 1 -->
+    <div class="project-card" data-category="c">
+      <div class="project-image">
+        <img src="images/BANK-front.jpeg" alt="Bank Management System">
+      </div>
+      <div class="project-info">
+        <h3>Bank Management System</h3>
+        <div class="project-category">C</div>
+        <p>A comprehensive C-based bank management system with account tracking and transaction management.</p>
+        <div class="project-links">
+          <a href="https://github.com/ShimzaSajid/Bank-Management-System" target="_blank" class="code-link"> <i class="fab fa-github "></i>  View Code</a>
+        <a href="#" class="demo-link" data-video="assests/Bank-demo.mp4"><i class="fas fa-eye"></i>  Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card" data-category="web">
+      <div class="project-image">
+        <img src="images\todothumbnail.png" alt="Web">
+      </div>
+      <div class="project-info">
+        <h3>To-Do List Website</h3>
+        <div class="project-category">JavaScript, HTML, CSS</div>
+        <p>Elegant task manager built with JavaScript — simple, smart, and productive.</p>
+        <div class="project-links">
+          <a href="https://github.com/ShimzaSajid/To-Do-List" target="_blank" class="code-link"><i class="fab fa-github"></i>  View Code</a>
+          <a href="#" class="demo-link" data-video="assests/to-do-list-demo.mp4"><i class="fas fa-eye"></i>  Live Demo</a>
+        </div>
+      </div>
+    </div>
+    <!-- project 3 -->
+    <div class="project-card" data-category="web">
+      <div class="project-image">
+        <img src="images\portfolio-thumbnail.png" alt="Web">
+      </div>
+      <div class="project-info">
+        <h3>Porfolio</h3>
+        <div class="project-category">JavaScript, HTML, CSS</div>
+        <p>“An immersive portfolio web experience featuring smooth scroll effects, dark theme, and animated UI — crafted to reflect creativity, precision, and passion for front-end development.</p>
+        <div class="project-links">
+          <a href="https://github.com/ShimzaSajid/To-Do-List" target="_blank" class="code-link"><i class="fab fa-github"></i> View Code</a>
+          <a href="#" class="demo-link" data-video="assests/Porfolio-demo.mp4"><i class="fas fa-eye"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card" data-category="oop">
+      <div class="project-image">
+        <img src="images\OOP thumbnail.png" alt="oop">
+      </div>
+      <div class="project-info">
+        <h3>HarvestHub</h3>
+        <div class="project-category">OOP, JavaFX</div>
+        <p>A sleek JavaFX-based Fruit and Vegetable Inventory System featuring a modern glass UI. It includes login/signup, product management, purchase, sales tracking, and password reset functionalities.</p>
+        <div class="project-links">
+          <a href="https://github.com/ShimzaSajid/HarvestHub-JavaFX" target="_blank" class="code-link"><i class="fab fa-github"></i> View Code</a>
+          <a href="#" class="demo-link" data-video="assests/OOP project video.mp4"><i class="fas fa-eye"></i> Live Demo</a>
+        </div>
+      </div>
+    </div>
+    <!-- project 5 -->
+        <div class="project-card" data-category="sql">
+      <div class="project-image">
+        <img src="images\clay-thumbnail.jpg" alt="Sql project">
+      </div>
+      <div class="project-info">
+        <h3>Handmade Earrings Database</h3>
+        <div class="project-category">Database,SQL</div>
+        <p>Developed a database system using SQL for a custom clay earrings brand, featuring ER modeling and complex queries to handle business operations like sales, inventory, and user data.
+</p>
+        <div class="project-links">
+          <a href="https://github.com/ShimzaSajid/handmade-earrings-database" target="_blank" class="code-link"> <i class="fab fa-github "></i>  View Code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Certificate section-->
+<section class="certificates-section" id="certificates">
+  <div class="section-header">
+    <h2><span class="highlight"><i class="fas fa-award"></i> Certificates</span></h2>
+  </div>
+
+  <div class="certificates-grid">
+    <!-- Flip Card 1 -->
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images\Coursera-img.png" alt="Coursera Logo" class="issuer-logo" />
+      <h3> Front-End Web Development Course</h3>
+      <p>by Coursera (Johns Hopkins University, US)</p>
+    </div>
+    <div class="flip-card-back">
+      <img src="images\Web development certificate.jpg" alt="Certificate Preview" class="certificate-preview" />
+      <button class="view-full-btn" onclick="openCertificateModal('images/Web development certificate.jpg')">View Full</button>
+    </div>
+  </div>
+</div>
+ <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images\MINDSTORM.png" alt="Coursera Logo" class="issuer-logo" />
+      <h3> Unity Game Development – Summer Program</h3>
+      <p>by  Mindstorm Studio, Lahore </p>
+    </div>
+    <div class="flip-card-back">
+      <img src="images\Mindstorm certificate_page-0001.jpg" alt="Certificate Preview" class="certificate-preview" />
+      <button class="view-full-btn" onclick="openCertificateModal('images/Mindstorm certificate_page-0001.jpg')">View Full</button>
+    </div>
+  </div>
+</div>
+ <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="images\AI-LOGO.png" alt="Coursera Logo" class="issuer-logo" />
+      <h3> UR20/30 e-Learning</h3>
+      <p>by  Universal Robots Academy</p>
+    </div>
+    <div class="flip-card-back">
+      <img src="images\AI certificate_page-0001.jpg" alt="Certificate Preview" class="certificate-preview" />
+      <button class="view-full-btn" onclick="openCertificateModal('images/AI certificate_page-0001.jpg')">View Full</button>
+    </div>
+  </div>
+</div>
+    <!-- Add more cards as needed -->
+  </div>
+
+<!-- ===== Modal for Full Certificate View ===== -->
+<div class="certificate-modal" id="certificateModal">
+  <span class="close-modal" onclick="closeCertificateModal()">&times;</span>
+  <img id="modalCertificateImg" src="" alt="Full Certificate" />
+</div>
+</section>
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    
+    <!-- LEFT: Contact Info -->
+    <div class="contact-info">
+      <h2>Let's Connect</h2>
+      <p>I'd love to hear from you! You can reach me through any platform below:</p>
+      <ul>
+        <li><a href="https://github.com/ShimzaSajid" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/shimza-sajid-126a3b312/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="mailto:shimzasajid2005@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+        <li><a href="https://www.google.com/maps/place/New+Lahore+City+Phase+2/@31.3438122,74.1470791,17z/data=!3m1!4b1!4m6!3m5!1s0x391855936311fbf7:0x6922e2c33907dfb0!8m2!3d31.3438076!4d74.149654!16s%2Fg%2F11d_wy73h2?entry=ttu&g_ep=EgoyMDI1MDcyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="fas fa-map-marker-alt"></i></a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT: Contact Form -->
+     <form id="contact-form" action="https://formspree.io/f/xblkdjpw" method="POST" class="contact-form">
+      <h2>Send a Message</h2>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+        <p id="form-message" style="display:none; color:#00ffc3; margin-top:20px; font-weight:bold;"></p>
+    </form>
+  </div>
+</section>
+
+  </main>
+<!-- Add more projects as needed -->
+ <div id="videoModal" class="modal-project">
+  <div class="modal-project-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <video 
+      id="modalVideo" 
+      controls 
+      muted 
+      onvolumechange="this.muted = true" 
+      controlsList="nodownload"
+    >
+      <source src="" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<footer class="footer">
+<div class="footer-content">
+  <div class="footer-logo">
+    <div class="logo-circle">SS</div>
+    <h2>Shimza Sajid</h2>
+  </div>
+  <p>Thank you for visiting my portfolio!</p>
+  <p class="copyright">© 2025 Shimza Sajid. All rights reserved.</p>
+</div>
+
+  <div class="footer-links">
+    <a href="#" id="privacy-link">Privacy Policy</a>
+    <a href="#" id="terms-link">Terms & Conditions</a>
+  </div>
+</footer>
+<!-- Privacy Policy Modal -->
+<div class="modal" id="privacy-modal">
+  <div class="modal-content">
+    <span class="close-btn" data-close="privacy-modal">&times;</span>
+    <h3>Privacy Policy</h3>
+        <p>
+      I respect your privacy and want to be clear about how this website works.
+      This is my personal portfolio, and it only displays information about me — such as my name,
+      skills, education, and projects — to showcase my professional profile.
+      I do not collect, track, or store any personal data from visitors.
+      However, third-party services like GitHub or Formspree (used for the contact form) may collect basic data like IP addresses or browser information. Please review their privacy policies separately.
+      Please do not copy, use, or share any content or personal details without permission.
+    </p>
+    <p>If you have questions or would like to connect, feel free to use the contact form.</p>
+  </div>
+</div>
+
+<!-- Terms Modal -->
+<div class="modal" id="terms-modal">
+  <div class="modal-content">
+    <span class="close-btn" data-close="terms-modal">&times;</span>
+    <h3>Terms & Conditions</h3>
+    <p>
+      This portfolio is for informational purposes only. All content, including code samples,
+      designs, and projects, belong to me unless stated otherwise. You are not allowed to reproduce,
+      distribute, or use any part of this site without permission.
+    </p>
+    <p>By browsing this site, you agree to these terms.</p>
+  </div>
+</div>
+  <!-- JS File -->
+  <script src="script.js"></script>
+</body>
+</html>
